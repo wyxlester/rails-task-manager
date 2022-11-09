@@ -1,0 +1,9 @@
+<h1>Show Selected Task</h1>
+
+<p>Title: <%= @task.title %></p>
+<p>Details: <%= @task.details %></p>
+<p>Completed? <%= @task.completed %></p>
+
+<%= link_to "Back to Homepage", tasks_path%>
+<br>
+<%= link_to "Edit Task", edit_task_path%>
